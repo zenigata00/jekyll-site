@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    {% include header.html %}
+
+    <div id="main">
+      {% include nav.html %}
+      <aside>aside</aside>
+
+      <section class="main">
+        <div class="container">
+          {{ content }}
+        </div>
+      </section>
+      
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>

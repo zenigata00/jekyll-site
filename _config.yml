@@ -1,0 +1,4 @@
+# File: _config.yml
+collections:
+  staff_members:
+    output: true
